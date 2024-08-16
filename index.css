@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(to right, #ff69b4, #8a2be2);
+    color: white;
+    margin:0 35%;
+}
+
+.function-block {
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    margin: 5px 0;
+    color: black;
+}

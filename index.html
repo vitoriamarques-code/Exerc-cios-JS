@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções em JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Funções em JavaScript</h1>
+
+    <!-- MAIOR_MENOR -->
+    <div class="function-block">
+        <h2>MAIOR_MENOR</h2>
+        <label for="valores-maior-menor">Digite cinco valores inteiros separados por vírgula:</label>
+        <input type="text" id="valores-maior-menor">
+        <button onclick="maiorMenor()">Calcular</button>
+        <p id="resultado-maior-menor"></p>
+    </div>
+
+    <!-- VOGAL -->
+    <div class="function-block">
+        <h2>VOGAL</h2>
+        <label for="caractere-vogal">Digite um caractere:</label>
+        <input type="text" id="caractere-vogal" maxlength="1">
+        <button onclick="vogal()">Verificar</button>
+        <p id="resultado-vogal"></p>
+    </div>
+
+    <!-- LIMITES -->
+    <div class="function-block">
+        <h2>LIMITES</h2>
+        <label for="limite-inferior">Digite o limite inferior:</label>
+        <input type="number" id="limite-inferior">
+        <label for="limite-superior">Digite o limite superior:</label>
+        <input type="number" id="limite-superior">
+        <button onclick="limites()">Calcular</button>
+        <p id="resultado-limites"></p>
+    </div>
+
+    <!-- ORDEM -->
+    <div class="function-block">
+        <h2>ORDEM</h2>
+        <label for="valores-ordem">Digite três valores inteiros separados por vírgula:</label>
+        <input type="text" id="valores-ordem">
+        <button onclick="ordem()">Ordenar</button>
+        <p id="resultado-ordem"></p>
+    </div>
+
+    <!-- POSITIVO_NEGATIVO -->
+    <div class="function-block">
+        <h2>POSITIVO_NEGATIVO</h2>
+        <label for="valor-positivo-negativo">Digite um valor inteiro:</label>
+        <input type="number" id="valor-positivo-negativo">
+        <button onclick="positivoNegativo()">Verificar</button>
+        <p id="resultado-positivo-negativo"></p>
+    </div>
+
+    <!-- PAR_IMPAR -->
+    <div class="function-block">
+        <h2>PAR_IMPAR</h2>
+        <label for="valor-par-impar">Digite um valor inteiro:</label>
+        <input type="number" id="valor-par-impar">
+        <button onclick="parImpar()">Verificar</button>
+        <p id="resultado-par-impar"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
